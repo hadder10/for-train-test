@@ -1,0 +1,9 @@
+python train.py \
+  --data /home/hadder10/for-train-test/data/empty_shelf/data.yaml \
+  --model yolo11l.pt \
+  --epochs 120 \
+  --imgsz 960 \
+  --batch 16 \
+  --project runs \
+  --name empty_shelf_yolo11l_gpu \
+  --device 0
